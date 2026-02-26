@@ -1,65 +1,65 @@
 # 🖱️ DZ AutoClicker Premium
 
-Un script d'Auto-Clicker élégant et minimaliste développé en Python avec **CustomTkinter**.
-Idéal pour simuler une activité de présence continue (ex: éviter le statut "Absent" sur Microsoft Teams ou Discord).
+An elegant and minimalist Auto-Clicker script built in Python with **CustomTkinter**.
+Perfect for simulating continuous presence activity (e.g., avoiding the "Away" status on Microsoft Teams or Discord).
 
 ---
 
-## 🚀 Fonctionnalités
+## 🚀 Features
 
-* **Interface Premium** : Un magnifique Dark Mode épuré.
-* **Simple d'utilisation** : Pas de configuration complexe, juste un gros bouton Démarrer/Arrêter.
-* **Intervalle Personnalisable** : Paramétrez le temps entre chaque clic en un clin d'œil (par défaut : 30 secondes).
-* **Mode Arrière-Plan** : Le processus de clics fonctionne de manière asynchrone sans bloquer l'interface de l'application.
+* **Premium Interface**: A gorgeous, clean Dark Mode design.
+* **Easy to Use**: No complex configurations—just a giant Start/Stop button.
+* **Customizable Interval**: Set the time between clicks in an instant (default: 30 seconds).
+* **Background Mode**: The clicking process works asynchronously without freezing the application interface.
 
 ## 📥 Installation
 
-Si vous souhaitez utiliser le code source directement, voici comment l'installer :
+If you wish to use the source code directly, follow these steps:
 
-1. Clonez ce dépôt.
+1. Clone this repository.
    ```cmd
    git clone https://github.com/yacinus17/DZ-Auto-Clicker.git
    cd DZ-Auto-Clicker
    ```
-2. Créez un environnement virtuel (optionnel mais recommandé).
+2. Create a virtual environment (optional but recommended).
    ```cmd
    python -m venv venv
    .\venv\Scripts\activate
    ```
-3. Installez les dépendances requises.
+3. Install the required dependencies.
    ```cmd
    pip install -r requirements.txt
    ```
 
-## 🎮 Utilisation
+## 🎮 Usage
 
-Exécutez simplement le programme source :
+Simply run the source code:
 ```cmd
 python main.py
 ```
 
-> ⚠️ Placez simplement la fenêtre de l'application dans un coin, cliquez sur "Démarrer", et positionnez votre curseur à l'endroit où vous voulez que les clics s'exécutent.
+> ⚠️ Place the application window in a corner, click "Start", and hover your cursor at the exact spot where you want the clicks to happen.
 
-## 🛠️ Compilation en Exécutable (.exe)
+## 🛠️ Compiling to an Executable (.exe)
 
-Vous pouvez compiler ce projet en un unique fichier `.exe` pour pouvoir le distribuer sans avoir besoin d'installer Python.
+You can compile this project into a standalone `.exe` file to distribute it without needing to install Python.
 
-Assurez-vous d'avoir installé `pyinstaller` (inclus dans l'environnement si vous le souhaitez) :
+Make sure you have `pyinstaller` installed (included in the `requirements.txt` environment):
 ```cmd
 pip install pyinstaller
 ```
 
-Compilez le projet avec la commande suivante :
+Compile the project by running:
 ```cmd
 pyinstaller --noconsole --onefile --windowed --name "AutoClicker Premium" main.py
 ```
-Le fichier `.exe` résultant se trouvera dans le dossier `dist/`.
+The resulting `.exe` file will be located in the `dist/` folder.
 
-## ⚙️ Dépendances
+## ⚙️ Dependencies
 
-- `customtkinter` : Pour l'interface graphique moderne.
-- `pynput` : Pour le contrôle précis de la souris.
+- `customtkinter`: For the modern graphical interface.
+- `pynput`: For precise mouse control.
 
-## 📝 Licence
+## 📝 License
 
-Ce projet est libre de droits. Utilisez-le comme bon vous semble !
+This project is completely free and open for personal or commercial use.
