@@ -51,7 +51,7 @@ pip install pyinstaller
 
 Compile the project by running:
 ```cmd
-pyinstaller --noconsole --onefile --windowed --name "AutoClicker Premium" main.py
+.\venv\Scripts\python -m PyInstaller --noconsole --onefile --windowed --name "AutoClicker Premium" main.py
 ```
 The resulting `.exe` file will be located in the `dist/` folder.
 
