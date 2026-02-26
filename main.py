@@ -13,7 +13,7 @@ class App(ctk.CTk):
         super().__init__()
 
         # Main window configuration
-        self.title("Auto Clicker Premium")
+        self.title("Dz Auto Clicker")
         self.geometry("450x550")
         self.resizable(False, False)
         
@@ -34,7 +34,7 @@ class App(ctk.CTk):
         # 1. Main Title
         self.title_label = ctk.CTkLabel(
             self, 
-            text="AUTO CLICKER", 
+            text="DZ AUTO CLICKER", 
             font=ctk.CTkFont(family="Inter", size=32, weight="bold")
         )
         self.title_label.pack(pady=(20, 5))
@@ -245,10 +245,10 @@ class App(ctk.CTk):
         # Create and show System Tray icon
         image = self.create_image()
         menu = pystray.Menu(
-            pystray.MenuItem('Show AutoClicker', self.on_show_window, default=True),
+            pystray.MenuItem('Show Dz Auto Clicker', self.on_show_window, default=True),
             pystray.MenuItem('Exit', self.on_exit)
         )
-        self.icon = pystray.Icon("AutoClicker", image, "AutoClicker Premium", menu)
+        self.icon = pystray.Icon("DzAutoClicker", image, "Dz Auto Clicker", menu)
         
         # Run tray in a separate non-blocking way relative to tkinter
         threading.Thread(target=self.icon.run, daemon=True).start()

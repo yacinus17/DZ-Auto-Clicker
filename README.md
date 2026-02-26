@@ -1,4 +1,4 @@
-# 🖱️ DZ AutoClicker Premium
+# 🖱️ Dz Auto Clicker
 
 An elegant and minimalist Auto-Clicker script built in Python with **CustomTkinter**.
 Perfect for simulating continuous presence activity (e.g., avoiding the "Away" status on Microsoft Teams or Discord).
@@ -55,7 +55,7 @@ pip install pyinstaller
 
 Compile the project by running:
 ```cmd
-.\venv\Scripts\python -m PyInstaller --noconsole --onefile --windowed --name "AutoClicker Premium" main.py
+.\venv\Scripts\python -m PyInstaller --noconsole --onefile --windowed --name "Dz Auto Clicker" --collect-all customtkinter --hidden-import pystray._win32 main.py
 ```
 The resulting `.exe` file will be located in the `dist/` folder.
 
