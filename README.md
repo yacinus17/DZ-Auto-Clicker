@@ -7,9 +7,13 @@ Perfect for simulating continuous presence activity (e.g., avoiding the "Away" s
 
 ## 🚀 Features
 
-* **Premium Interface**: A gorgeous, clean Dark Mode design.
+* **Premium Interface**: A gorgeous, clean Dark Mode design with customizable accent colors (Green, Blue, Dark-Blue).
 * **Easy to Use**: No complex configurations—just a giant Start/Stop button.
 * **Customizable Interval**: Set the time between clicks in an instant (default: 30 seconds).
+* **Random Mode (Anti-Bot)**: Varies the click interval dynamically by ±20% to avoid detection by strict monitoring software.
+* **Anti-AFK Movement**: Performs a micro mouse movement before every click.
+* **Always on Top**: Pin the application above all your other windows for quick access.
+* **System Tray Mode**: Minimize the app to your notification area instead of closing it to keep it running invisibly.
 * **Background Mode**: The clicking process works asynchronously without freezing the application interface.
 
 ## 📥 Installation
